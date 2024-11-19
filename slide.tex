@@ -1,0 +1,33 @@
+\documentclass[10pt, aspectratio=169]{beamer}
+\usetheme[
+    block=fill,
+    progressbar=foot,
+    numbering=fraction
+]{metropolis}
+\usepackage{xspace}
+\usepackage{appendixnumberbeamer}
+\usepackage{luatexja}
+\usepackage[haranoaji&deluxe]{luatexja-preset}
+\renewcommand{\kanjifamilydefault}{\gtdefault}
+
+\title{メトロポリス}
+\subtitle{モダンなBeamerテーマ}
+\date{\today}
+\author{マティアス・フォーゲルゲサング}
+\institute{モダンなBeamerテーマのセンター}
+
+\begin{document}
+\maketitle
+
+\begin{frame}{目次}
+    \setbeamertemplate{section in toc}[sections numbered]
+    \tableofcontents[hideallsubsections]
+\end{frame}
+
+\section{Metropolis}
+
+\begin{frame}[fragile]{Metropolis}
+    hello world
+\end{frame}
+
+\end{document}
